@@ -1,3 +1,4 @@
+#Question 1
 def calculate_discount(price, discount_percent):
     discount=discount_percent/100
     if discount >= 0.2:
@@ -5,6 +6,7 @@ def calculate_discount(price, discount_percent):
     else:
         return price
 
+#Question 2
 
 original_price=float(input ("Enter original price: "))
 discount_percentage=float(input("Enter Discount Percentage: "))
